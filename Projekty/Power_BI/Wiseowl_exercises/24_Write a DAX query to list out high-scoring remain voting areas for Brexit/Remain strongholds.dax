@@ -1,0 +1,3 @@
+﻿EVALUATE 
+FILTER(Voting,Voting[Remain] >3*Voting[Leave])
+order by Voting[Remain] desc
